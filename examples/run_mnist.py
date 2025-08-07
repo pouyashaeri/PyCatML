@@ -1,0 +1,1 @@
+# Run MNIST example
