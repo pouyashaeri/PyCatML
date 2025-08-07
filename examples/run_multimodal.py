@@ -1,10 +1,10 @@
 # Run multimodal example
 import torch
 from torchvision import transforms
-from pycatml.categories.image import ImageCategory
-from pycatml.categories.text import TextCategory
-from pycatml.categories.multimodal import ProductCategory
-from pycatml.functors.base import Functor
+from ..categories.image import ImageCategory
+from ..categories.text import TextCategory
+from ..categories.multimodal import ProductCategory
+from ..functors.base import Functor
 
 def main():
     # --- Set up image modality

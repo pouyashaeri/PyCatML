@@ -2,8 +2,8 @@
 import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
-from pycatml.categories.image import ImageCategory
-from pycatml.functors.base import Functor
+from ..categories.image import ImageCategory
+from ..functors.base import Functor
 
 def main():
     # --- Define the image category
